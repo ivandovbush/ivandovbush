@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="740" height="278" viewBox="0 0 740 278" role="img" aria-labelledby="t d">
-  <title id="t">Personal hardware and software project build log</title>
-  <desc id="d">A terminal build log highlighting Auron, FPGA logic, algorithms in C, computer vision, web development, and a link to Ivan's robotics work.</desc>
+  <title id="t">Robotics, algorithms, and digital systems build log</title>
+  <desc id="d">A high-level terminal log highlighting underwater autonomy, multi-vehicle simulation, FPGA logic, algorithms in C, and a link to Ivan's field robotics work.</desc>
 
   <style>
     /* Ayu Dark, as shipped in Ghostty */
@@ -37,19 +37,19 @@
   <rect width="740" height="278" rx="10" fill="#0b0e14"/>
   <rect width="740" height="34" rx="10" fill="#11151c"/>
   <rect y="24" width="740" height="10" fill="#11151c"/>
-  <text class="m dm" x="370" y="22" text-anchor="middle" style="font-size:12px">ivan@lab: ~/projects</text>
+  <text class="m dm" x="370" y="22" text-anchor="middle" style="font-size:12px">ivan@lab: ~/systems</text>
 
-  <text class="m" x="20" y="64" xml:space="preserve"><tspan class="bl">$</tspan> <tspan class="gn">./portfolio</tspan><tspan class="fg"> build --target hardware,software</tspan></text>
+  <text class="m" x="20" y="64" xml:space="preserve"><tspan class="bl">$</tspan> <tspan class="gn">./portfolio</tspan><tspan class="fg"> build --scope systems</tspan></text>
   <rect class="mask" x="36" y="50" width="430" height="19" fill="#0b0e14"/>
   <rect class="k1" x="36" y="51" width="8" height="17" fill="#e6b450"/>
 
-  <text class="m line l1" x="20" y="92"  xml:space="preserve"><tspan class="gn">[ OK ]</tspan> <tspan class="fg">auron · </tspan><tspan class="or">ROS 2</tspan><tspan class="fg"> node generation + diff preview ready</tspan></text>
-  <text class="m line l2" x="20" y="114" xml:space="preserve"><tspan class="dm">[INFO] [fpga]       </tspan><tspan class="or">SystemVerilog</tspan><tspan class="fg"> FSM + keypad pipeline · simulation passing</tspan></text>
-  <text class="m line l3" x="20" y="136" xml:space="preserve"><tspan class="dm">[INFO] [algorithms] </tspan><tspan class="fg">Shell sort · AVL trees · Dijkstra routing in </tspan><tspan class="or">C</tspan></text>
-  <text class="m line l4" x="20" y="158" xml:space="preserve"><tspan class="dm">[INFO] [vision]     </tspan><tspan class="or">OpenCV</tspan><tspan class="fg"> focus monitor · threaded feedback armed</tspan></text>
-  <text class="m line l5" x="20" y="180" xml:space="preserve"><tspan class="dm">[INFO] [web]        </tspan><tspan class="fg">React + TypeScript · GitHub Pages </tspan><tspan class="gn">deployed</tspan><tspan class="cy ping"> ◆</tspan></text>
-  <text class="m line l6" x="20" y="202" xml:space="preserve"><tspan class="cy">[LINK]</tspan> <tspan class="dm">[robotics]   </tspan><tspan class="fg">field systems → </tspan><tspan class="bl">github.com/ivan-dovbush</tspan></text>
-  <text class="m line l7" x="20" y="228" xml:space="preserve"><tspan class="gn">[ OK ]</tspan> <tspan class="fg">build complete · hardware ↔ software · ideas → working systems</tspan></text>
+  <text class="m line l1" x="20" y="92"  xml:space="preserve"><tspan class="gn">[ OK ]</tspan> <tspan class="fg">auv_ws · </tspan><tspan class="or">ROS 2</tspan><tspan class="fg"> autonomy workspace ready</tspan></text>
+  <text class="m line l2" x="20" y="114" xml:space="preserve"><tspan class="dm">[INFO] [simulation] </tspan><tspan class="fg">underwater mission test loop initialized</tspan></text>
+  <text class="m line l3" x="20" y="136" xml:space="preserve"><tspan class="dm">[INFO] [micro-subs] </tspan><tspan class="fg">multi-vehicle environment · perception workflows ready</tspan></text>
+  <text class="m line l4" x="20" y="158" xml:space="preserve"><tspan class="dm">[INFO] [fpga]       </tspan><tspan class="or">SystemVerilog</tspan><tspan class="fg"> control logic · verification passing</tspan></text>
+  <text class="m line l5" x="20" y="180" xml:space="preserve"><tspan class="dm">[INFO] [algorithms] </tspan><tspan class="fg">sorting · balanced trees · shortest paths in </tspan><tspan class="or">C</tspan><tspan class="cy ping"> ◆</tspan></text>
+  <text class="m line l6" x="20" y="202" xml:space="preserve"><tspan class="cy">[LINK]</tspan> <tspan class="dm">[field-work] </tspan><tspan class="fg">robotics → </tspan><tspan class="bl">github.com/ivan-dovbush</tspan></text>
+  <text class="m line l7" x="20" y="228" xml:space="preserve"><tspan class="gn">[ OK ]</tspan> <tspan class="fg">systems ready · simulation ↔ hardware ↔ field</tspan></text>
 
   <text class="m line l8 bl" x="20" y="256">$</text>
   <rect class="k2" x="36" y="243" width="8" height="17" fill="#e6b450"/>
