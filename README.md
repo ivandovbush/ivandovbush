@@ -46,63 +46,63 @@ computer engineering @ purdue · robotics @ ulysses · autonomous systems
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-<h3>01 / Underwater autonomy</h3>
+<h3><code>01</code>&nbsp; Underwater autonomy</h3>
 Built a ROS 2/Gazebo autonomy workspace with service-launched missions, waypoint planning, DVL dead reckoning, periodic GPS drift correction, seabed-range avoidance, and structured dive logs.
 <br><br>
-<code>ROS 2</code> <code>Gazebo</code> <code>Python</code> <code>Docker</code> <code>DVL</code>
+<sub><code>ROS 2</code> <code>Gazebo</code> <code>Python</code> <code>Docker</code> <code>DVL</code></sub>
 </td>
 <td width="50%" valign="top">
-<h3>02 / Micro-sub systems</h3>
+<h3><code>02</code>&nbsp; Micro-sub systems</h3>
 Built a namespaced multi-sub simulation that generates vehicle and ArUco assets, spawns Gazebo models, bridges ROS 2 topics, calibrates an overhead camera, and supports perception-driven coordinated motion.
 <br><br>
-<code>ROS 2</code> <code>Gazebo</code> <code>OpenCV</code> <code>ArUco</code> <code>Python</code>
+<sub><code>ROS 2</code> <code>Gazebo</code> <code>OpenCV</code> <code>ArUco</code> <code>Python</code></sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3>03 / Algorithms in C</h3>
+<h3><code>03</code>&nbsp; Algorithms in C</h3>
 Implemented and profiled C programs for array and linked-list Shell sort, slicing-tree packing and rerouting, AVL rebalancing, and shortest-path search with adjacency lists and a binary heap.
 <br><br>
-<code>C</code> <code>Shell Sort</code> <code>AVL Trees</code> <code>Dijkstra</code>
+<sub><code>C</code> <code>Shell Sort</code> <code>AVL Trees</code> <code>Dijkstra</code></sub>
 </td>
 <td width="50%" valign="top">
-<h3>04 / Digital systems</h3>
+<h3><code>04</code>&nbsp; Digital systems</h3>
 Designed SystemVerilog RTL for an iCE40 FPGA, including a finite-state combination lock, synchronized keypad input, clock prescalers, priority encoders, and multiplexed display logic.
 <br><br>
-<code>SystemVerilog</code> <code>FPGA</code> <code>iCE40</code> <code>GTKWave</code>
+<sub><code>SystemVerilog</code> <code>FPGA</code> <code>iCE40</code> <code>GTKWave</code></sub>
 </td>
 </tr>
 </table>
 
-### `What I'm working on at Ulysses`
+### `What I am working on at Ulysses`
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-<h3>01 / Vehicle infrastructure</h3>
+<h3><code>01</code>&nbsp; Vehicle infrastructure</h3>
 Automated Jetson flashing, Docker setup, networking, and Pixhawk configuration—cutting AUV bring-up time by <strong>95%+</strong>.
 <br><br>
-<code>Ansible</code> <code>Docker</code> <code>Jetson</code> <code>Pixhawk</code>
+<sub><code>Ansible</code> <code>Docker</code> <code>Jetson</code> <code>Pixhawk</code></sub>
 </td>
 <td width="50%" valign="top">
-<h3>02 / Navigation &amp; mapping</h3>
+<h3><code>02</code>&nbsp; Navigation &amp; mapping</h3>
 Built an SDS-to-XTF pipeline that fuses DVL and INS data over NATS into navigation packets for georeferenced side-scan sonar surveys.
 <br><br>
-<code>Python</code> <code>NATS</code> <code>DVL</code> <code>INS</code> <code>XTF</code>
+<sub><code>Python</code> <code>NATS</code> <code>DVL</code> <code>INS</code> <code>XTF</code></sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3>03 / Embedded control</h3>
+<h3><code>03</code>&nbsp; Embedded control</h3>
 Designed an STM32/CAN solenoid driver with protected low-side switching and flyback protection for on-command buoyancy actuation.
 <br><br>
-<code>STM32</code> <code>CAN</code> <code>KiCad</code> <code>C</code>
+<sub><code>STM32</code> <code>CAN</code> <code>KiCad</code> <code>C</code></sub>
 </td>
 <td width="50%" valign="top">
-<h3>04 / Simulation &amp; autonomy</h3>
+<h3><code>04</code>&nbsp; Simulation &amp; autonomy</h3>
 Built a Dockerized underwater stack with DVL localization, drift correction, and service-driven autonomous mission control.
 <br><br>
-<code>ROS 2</code> <code>Gazebo</code> <code>ArduPilot SITL</code> <code>C++</code>
+<sub><code>ROS 2</code> <code>Gazebo</code> <code>ArduPilot SITL</code> <code>C++</code></sub>
 </td>
 </tr>
 </table>

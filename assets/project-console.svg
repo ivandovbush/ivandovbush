@@ -14,8 +14,8 @@
     .l5 { animation-delay: 1.93s } .l6 { animation-delay: 2.05s }
     .l7 { animation-delay: 2.20s } .l8 { animation-delay: 2.40s }
 
-    .mask { animation: type 1.06s steps(48) .20s forwards }
-    .k1 { opacity: 0; animation: in .01s linear .20s forwards, type 1.06s steps(48) .20s forwards,
+    .mask { animation: type .62s steps(17) .20s forwards }
+    .k1 { opacity: 0; animation: in .01s linear .20s forwards, type .62s steps(17) .20s forwards,
                                  blink .9s steps(2) .20s infinite, out .01s linear 1.30s forwards }
     .k2 { opacity: 0; animation: in .01s linear 2.40s forwards, blink .9s steps(2) 2.40s infinite }
     .ping { opacity: 0; animation: in .01s linear 2.05s forwards, sweep 2.2s ease-in-out 2.1s infinite }
@@ -24,11 +24,11 @@
     @keyframes out   { to { opacity: 0 } }
     @keyframes blink { 50% { opacity: 0 } }
     @keyframes sweep { 0%,100% { opacity: 1 } 50% { opacity: .4 } }
-    @keyframes type  { to { transform: translateX(403px) } }
+    @keyframes type  { to { transform: translateX(143px) } }
 
     @media (prefers-reduced-motion: reduce) {
       .line, .ping { opacity: 1; animation: none }
-      .mask { transform: translateX(403px); animation: none }
+      .mask { transform: translateX(143px); animation: none }
       .k1 { opacity: 0; animation: none }
       .k2 { opacity: 1; animation: none }
     }
@@ -39,7 +39,7 @@
   <rect y="24" width="740" height="10" fill="#11151c"/>
   <text class="m dm" x="370" y="22" text-anchor="middle" style="font-size:12px">ivan@lab: ~/autonomy</text>
 
-  <text class="m" x="20" y="64" xml:space="preserve"><tspan class="bl">$</tspan> <tspan class="gn">./portfolio</tspan><tspan class="fg"> build --target personal, ulysses</tspan></text>
+  <text class="m" x="20" y="64" xml:space="preserve"><tspan class="bl">$</tspan> <tspan class="gn">./portfolio</tspan><tspan class="fg"> build</tspan></text>
   <rect class="mask" x="36" y="50" width="430" height="19" fill="#0b0e14"/>
   <rect class="k1" x="36" y="51" width="8" height="17" fill="#e6b450"/>
 
