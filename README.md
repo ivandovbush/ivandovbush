@@ -1,15 +1,15 @@
 <!-- profile: personal build console -->
 <div align="center">
 
-<img src="./assets/project-console.svg" alt="Personal hardware and software project build log" width="740">
+<img src="./assets/project-console.svg" alt="Autonomous systems development and field deployment log" width="740">
 
 <br>
 
 # Ivan Dovbush
 
-**I build robotic systems from low-level logic and algorithms through multi-vehicle simulation.**
+**I build autonomous systems from embedded hardware and low-level logic through simulation and field deployment.**
 
-computer engineering @ purdue · autonomous systems · embedded logic · simulation
+computer engineering @ purdue · robotics @ ulysses · autonomous systems
 
 [Work GitHub](https://github.com/ivan-dovbush) · [LinkedIn](https://www.linkedin.com/in/ivandovbush) · [Email](mailto:idovbush@purdue.edu)
 
@@ -19,21 +19,21 @@ computer engineering @ purdue · autonomous systems · embedded logic · simulat
 
 <table width="100%">
 <tr>
+<td width="20%" align="center"><img src="https://img.shields.io/badge/NVIDIA%20Jetson-0B0E14?style=for-the-badge&logo=nvidia&logoColor=76B900" alt="NVIDIA Jetson"></td>
+<td width="20%" align="center"><img src="https://img.shields.io/badge/STM32-0B0E14?style=for-the-badge&logo=stmicroelectronics&logoColor=3CB4E6" alt="STM32"></td>
+<td width="20%" align="center"><img src="https://img.shields.io/badge/KiCad-0B0E14?style=for-the-badge&logo=kicad&logoColor=55A7E0" alt="KiCad"></td>
 <td width="20%" align="center"><img src="https://img.shields.io/badge/ROS%202-0B0E14?style=for-the-badge&logo=ros&logoColor=67B7E1" alt="ROS 2"></td>
 <td width="20%" align="center"><img src="https://img.shields.io/badge/Gazebo-0B0E14?style=for-the-badge&logo=gazebo&logoColor=F58113" alt="Gazebo"></td>
-<td width="20%" align="center"><img src="https://img.shields.io/badge/Python-0B0E14?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python"></td>
-<td width="20%" align="center"><img src="https://img.shields.io/badge/C%2B%2B-0B0E14?style=for-the-badge&logo=cplusplus&logoColor=659AD2" alt="C++"></td>
-<td width="20%" align="center"><img src="https://img.shields.io/badge/C-0B0E14?style=for-the-badge&logo=c&logoColor=A8B9CC" alt="C"></td>
 </tr>
 <tr>
+<td width="20%" align="center"><img src="https://img.shields.io/badge/C%2B%2B-0B0E14?style=for-the-badge&logo=cplusplus&logoColor=659AD2" alt="C++"></td>
+<td width="20%" align="center"><img src="https://img.shields.io/badge/Python-0B0E14?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python"></td>
+<td width="20%" align="center"><img src="https://img.shields.io/badge/C-0B0E14?style=for-the-badge&logo=c&logoColor=A8B9CC" alt="C"></td>
 <td width="20%" align="center"><img src="https://img.shields.io/badge/SystemVerilog-0B0E14?style=for-the-badge&logoColor=FFFFFF" alt="SystemVerilog"></td>
 <td width="20%" align="center"><img src="https://img.shields.io/badge/Docker-0B0E14?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker"></td>
-<td width="20%" align="center"><img src="https://img.shields.io/badge/Linux-0B0E14?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux"></td>
-<td width="20%" align="center"><img src="https://img.shields.io/badge/OpenCV-0B0E14?style=for-the-badge&logo=opencv&logoColor=5C3EE8" alt="OpenCV"></td>
-<td width="20%" align="center"><img src="https://img.shields.io/badge/Git-0B0E14?style=for-the-badge&logo=git&logoColor=F05032" alt="Git"></td>
 </tr>
 <tr>
-<td colspan="5" align="center"><sub><code>iCE40</code> · <code>Digital Logic</code> · <code>Data Structures</code> · <code>Simulation</code> · <code>Perception</code></sub></td>
+<td colspan="5" align="center"><sub><code>CAN</code> · <code>Linux</code> · <code>OpenCV</code> · <code>Ansible</code> · <code>NATS</code> · <code>iCE40</code> · <code>Git</code></sub></td>
 </tr>
 </table>
 
@@ -41,7 +41,7 @@ computer engineering @ purdue · autonomous systems · embedded logic · simulat
 
 ---
 
-### `Selected systems`
+### `Personal Projects`
 
 <table width="100%">
 <tr>
@@ -74,6 +74,35 @@ Designed SystemVerilog RTL for an iCE40 FPGA, including a finite-state combinati
 </tr>
 </table>
 
-### `Field robotics`
+### `What I'm working on at Ulysses`
 
-Deployment-facing vehicle infrastructure, embedded control, navigation, and autonomy live at **[github.com/ivan-dovbush →](https://github.com/ivan-dovbush)**.
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<h3>01 / Vehicle infrastructure</h3>
+Automated Jetson flashing, Docker setup, networking, and Pixhawk configuration—cutting AUV bring-up time by <strong>95%+</strong>.
+<br><br>
+<code>Ansible</code> <code>Docker</code> <code>Jetson</code> <code>Pixhawk</code>
+</td>
+<td width="50%" valign="top">
+<h3>02 / Navigation &amp; mapping</h3>
+Built an SDS-to-XTF pipeline that fuses DVL and INS data over NATS into navigation packets for georeferenced side-scan sonar surveys.
+<br><br>
+<code>Python</code> <code>NATS</code> <code>DVL</code> <code>INS</code> <code>XTF</code>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>03 / Embedded control</h3>
+Designed an STM32/CAN solenoid driver with protected low-side switching and flyback protection for on-command buoyancy actuation.
+<br><br>
+<code>STM32</code> <code>CAN</code> <code>KiCad</code> <code>C</code>
+</td>
+<td width="50%" valign="top">
+<h3>04 / Simulation &amp; autonomy</h3>
+Built a Dockerized underwater stack with DVL localization, drift correction, and service-driven autonomous mission control.
+<br><br>
+<code>ROS 2</code> <code>Gazebo</code> <code>ArduPilot SITL</code> <code>C++</code>
+</td>
+</tr>
+</table>
