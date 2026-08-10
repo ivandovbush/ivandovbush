@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="278" viewBox="0 0 740 278" role="img" aria-labelledby="t d">
+  <title id="t">Personal hardware and software project build log</title>
+  <desc id="d">A terminal build log highlighting Auron, FPGA logic, algorithms in C, computer vision, web development, and a link to Ivan's robotics work.</desc>
+
+  <style>
+    /* Ayu Dark, as shipped in Ghostty */
+    .m  { font-family: "JetBrains Mono","SFMono-Regular",Menlo,Consolas,"Liberation Mono",monospace; font-size: 14px }
+    .fg { fill: #bfbdb6 } .dm { fill: #686868 } .gn { fill: #aad94c }
+    .or { fill: #ffb454 } .bl { fill: #59c2ff } .cy { fill: #95e6cb }
+
+    .line { opacity: 0; animation: in .01s linear forwards }
+    .l1 { animation-delay: 1.45s } .l2 { animation-delay: 1.57s }
+    .l3 { animation-delay: 1.69s } .l4 { animation-delay: 1.81s }
+    .l5 { animation-delay: 1.93s } .l6 { animation-delay: 2.05s }
+    .l7 { animation-delay: 2.20s } .l8 { animation-delay: 2.40s }
+
+    .mask { animation: type 1.06s steps(48) .20s forwards }
+    .k1 { opacity: 0; animation: in .01s linear .20s forwards, type 1.06s steps(48) .20s forwards,
+                                 blink .9s steps(2) .20s infinite, out .01s linear 1.30s forwards }
+    .k2 { opacity: 0; animation: in .01s linear 2.40s forwards, blink .9s steps(2) 2.40s infinite }
+    .ping { opacity: 0; animation: in .01s linear 1.93s forwards, sweep 2.2s ease-in-out 2.0s infinite }
+
+    @keyframes in    { to { opacity: 1 } }
+    @keyframes out   { to { opacity: 0 } }
+    @keyframes blink { 50% { opacity: 0 } }
+    @keyframes sweep { 0%,100% { opacity: 1 } 50% { opacity: .4 } }
+    @keyframes type  { to { transform: translateX(403px) } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .line, .ping { opacity: 1; animation: none }
+      .mask { transform: translateX(403px); animation: none }
+      .k1 { opacity: 0; animation: none }
+      .k2 { opacity: 1; animation: none }
+    }
+  </style>
+
+  <rect width="740" height="278" rx="10" fill="#0b0e14"/>
+  <rect width="740" height="34" rx="10" fill="#11151c"/>
+  <rect y="24" width="740" height="10" fill="#11151c"/>
+  <text class="m dm" x="370" y="22" text-anchor="middle" style="font-size:12px">ivan@lab: ~/projects</text>
+
+  <text class="m" x="20" y="64" xml:space="preserve"><tspan class="bl">$</tspan> <tspan class="gn">./portfolio</tspan><tspan class="fg"> build --target hardware,software</tspan></text>
+  <rect class="mask" x="36" y="50" width="430" height="19" fill="#0b0e14"/>
+  <rect class="k1" x="36" y="51" width="8" height="17" fill="#e6b450"/>
+
+  <text class="m line l1" x="20" y="92"  xml:space="preserve"><tspan class="gn">[ OK ]</tspan> <tspan class="fg">auron · </tspan><tspan class="or">ROS 2</tspan><tspan class="fg"> node generation + diff preview ready</tspan></text>
+  <text class="m line l2" x="20" y="114" xml:space="preserve"><tspan class="dm">[INFO] [fpga]       </tspan><tspan class="or">SystemVerilog</tspan><tspan class="fg"> FSM + keypad pipeline · simulation passing</tspan></text>
+  <text class="m line l3" x="20" y="136" xml:space="preserve"><tspan class="dm">[INFO] [algorithms] </tspan><tspan class="fg">Shell sort · AVL trees · Dijkstra routing in </tspan><tspan class="or">C</tspan></text>
+  <text class="m line l4" x="20" y="158" xml:space="preserve"><tspan class="dm">[INFO] [vision]     </tspan><tspan class="or">OpenCV</tspan><tspan class="fg"> focus monitor · threaded feedback armed</tspan></text>
+  <text class="m line l5" x="20" y="180" xml:space="preserve"><tspan class="dm">[INFO] [web]        </tspan><tspan class="fg">React + TypeScript · GitHub Pages </tspan><tspan class="gn">deployed</tspan><tspan class="cy ping"> ◆</tspan></text>
+  <text class="m line l6" x="20" y="202" xml:space="preserve"><tspan class="cy">[LINK]</tspan> <tspan class="dm">[robotics]   </tspan><tspan class="fg">field systems → </tspan><tspan class="bl">github.com/ivan-dovbush</tspan></text>
+  <text class="m line l7" x="20" y="228" xml:space="preserve"><tspan class="gn">[ OK ]</tspan> <tspan class="fg">build complete · hardware ↔ software · ideas → working systems</tspan></text>
+
+  <text class="m line l8 bl" x="20" y="256">$</text>
+  <rect class="k2" x="36" y="243" width="8" height="17" fill="#e6b450"/>
+</svg>
