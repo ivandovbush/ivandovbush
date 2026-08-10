@@ -7,9 +7,9 @@
 
 # Ivan Dovbush
 
-**I build robotic systems from algorithms and digital logic to multi-vehicle simulation.**
+**I build robotic systems from low-level logic and algorithms through multi-vehicle simulation.**
 
-computer engineering @ purdue · autonomy · embedded systems · simulation
+computer engineering @ purdue · autonomous systems · embedded logic · simulation
 
 [Work GitHub](https://github.com/ivan-dovbush) · [LinkedIn](https://www.linkedin.com/in/ivandovbush) · [Email](mailto:idovbush@purdue.edu)
 
@@ -43,33 +43,31 @@ computer engineering @ purdue · autonomy · embedded systems · simulation
 
 ### `Selected systems`
 
-<sub>Private work is summarized at the capability level.</sub>
-
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 <h3>01 / Underwater autonomy</h3>
-Built a ROS 2 workspace for developing and validating underwater autonomy in simulation, integrating vehicle behavior, navigation, and repeatable mission-level testing.
+Built a ROS 2/Gazebo autonomy workspace with service-launched missions, waypoint planning, DVL dead reckoning, periodic GPS drift correction, seabed-range avoidance, and structured dive logs.
 <br><br>
-<code>ROS 2</code> <code>Gazebo</code> <code>Python</code> <code>Docker</code>
+<code>ROS 2</code> <code>Gazebo</code> <code>Python</code> <code>Docker</code> <code>DVL</code>
 </td>
 <td width="50%" valign="top">
 <h3>02 / Micro-sub systems</h3>
-Extended a multi-vehicle underwater simulation focused on coordinated motion, perception workflows, and repeatable development across virtual platforms.
+Built a namespaced multi-sub simulation that generates vehicle and ArUco assets, spawns Gazebo models, bridges ROS 2 topics, calibrates an overhead camera, and supports perception-driven coordinated motion.
 <br><br>
-<code>ROS 2</code> <code>Gazebo</code> <code>Computer Vision</code> <code>Python</code>
+<code>ROS 2</code> <code>Gazebo</code> <code>OpenCV</code> <code>ArUco</code> <code>Python</code>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <h3>03 / Algorithms in C</h3>
-Implemented performance-conscious C solutions for sorting, spatial packing, balanced trees, and weighted shortest-path search with explicit memory management.
+Implemented and profiled C programs for array and linked-list Shell sort, slicing-tree packing and rerouting, AVL rebalancing, and shortest-path search with adjacency lists and a binary heap.
 <br><br>
-<code>C</code> <code>AVL Trees</code> <code>Dijkstra</code> <code>Memory Management</code>
+<code>C</code> <code>Shell Sort</code> <code>AVL Trees</code> <code>Dijkstra</code>
 </td>
 <td width="50%" valign="top">
 <h3>04 / Digital systems</h3>
-Designed and verified SystemVerilog modules for FPGA-based control, combining finite-state logic, synchronized inputs, clocking, and multiplexed output.
+Designed SystemVerilog RTL for an iCE40 FPGA, including a finite-state combination lock, synchronized keypad input, clock prescalers, priority encoders, and multiplexed display logic.
 <br><br>
 <code>SystemVerilog</code> <code>FPGA</code> <code>iCE40</code> <code>GTKWave</code>
 </td>
